@@ -4,8 +4,8 @@ COPY nginx.conf /etc/nginx/nginx.conf
 
 
 #para clonar el dist del proyecto
-# RUN git clone https://github.com/architectureufps/DistPoyectorcitecture-.git
+RUN git clone https://github.com/architectureufps/DistPoyectorcitecture-.git
 
-# run cd Architecture
+run cd Architecture
 
 COPY . /usr/share/nginx/html
